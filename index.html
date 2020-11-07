@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>German Car Quiz</title>
+</head>
+<body>
+
+<div class="container">
+  <h1 class="text-center"> Do you know about German cars? </h1>
+  <small class="lead text-center"> Millions of people around the world drive German cars. Arguably the most famous, the Volkswagen Beetle designed by Ferdinand Porsche, became one of best setting cars of all time only second to the Toyota Corolla. Germany's contribution to cars does not end there. The inventor of the modern car has since been disputed between three Germans, Karl Benz and Gottlieb Daimler of Mercedes-Benz and a Jewish inventor in the late 1800's who used a gasoline engine to power a cart know as Siegfried Marcus.
+  </small>
+
+  <div class="row row-cols-sm-1 row-cols-md-2 pt-5">
+
+    <!-- Question 1 -->
+    <div class="col justify-content-start">
+      <form>
+      <div class="form-group">
+        <label class="form-control-label" for="vwbasedin">What city is Volkswagen based in?</label>
+        <input class="form-control" type="text" name="vwbasedin" id="vwbasedin" placeholder="Type a city name">
+        <small class="form-text text-muted" id="vwcityhint">Hint: It's obviously in Germany.</small>
+      </div>
+      <!-- END Question 1 -->
+
+      <!-- Question 2 -->
+      <div class="form-group">
+        <label class="form-control-label" for="vwporscheyear">What year did Volkswagen AG own 100% of Porsche?</label>
+        <input class="form-control" type="text" name="vwporscheyear" id="vwporscheyear" placeholder="Type a year, ex: 1995">
+      </div>
+      <!-- END Question 2 -->
+
+      <!-- Question 3 -->
+      <label class="pt-3">How many current German car companies operate in the USA?</label>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="radio" name="carcompaniesusa" value="10"> 10
+        </label>
+      </div>
+      <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="carcompaniesusa" value="5"> 5
+          </label>
+      </div>
+      <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="carcompaniesusa" value="7"> 7
+          </label>
+      </div>
+      <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="carcompaniesusa" value="3"> 3
+          </label>
+      </div>
+      <!-- END Question 3 -->
+
+      <!-- Question 4 -->
+      <label class="pt-3">Select all companies owned by Volkswagen AG (Germany's largest Automaker)</label>
+      <div class="form-group">
+      <div class="form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" name="chkcompanies" value="SEAT"> SEAT
+        </label>
+      </div>
+      <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="chkcompanies" value="Ford"> Ford
+          </label>
+      </div>
+      <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="chkcompanies" value="Toyota"> Toyota
+            </label>
+      </div>
+      <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="chkcompanies" value="Audi"> Audi
+            </label>
+      </div>
+      <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="chkcompanies" value="Bugatti"> Bugatti
+              </label>
+      </div>
+      <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="chkcompanies" value="Porsche"> Porsche
+              </label>
+      </div>
+    </div>
+      <!-- END Question 4 -->
+
+      <!-- Question 5 -->
+      <div class="form-group pt-3">
+        <label class="form-control-label" for="mergersignificance">Explain the significance of the mergers leading up to the 21st century and the fall of communism for the German auto industry.</label>
+        <textarea class="form-control" name="mergersignificance" id="mergersignificance" rows="6"></textarea>
+      </div>
+      <!-- END Question 5 -->
+
+      <!-- Question 6 -->
+      <div class="form group pt-3 pb-3">
+        <label for="americanbuyer">Which American company bought Opel?</label>
+      <select class="form-control" name="americanbuyer" id="americanbuyer">
+        <option>Choose</option>
+        <option value="GM">General Motors (GMC)</option>
+        <option value="Ford">Ford</option>
+        <option value="Buick">Buick</option>
+        <option value="Cadillac">Cadillac</option>
+        <option value="Jeep">Jeep</option>
+        <option value="Chrysler">Chrysler</option>
+        <option value="Lincoln">Lincoln</option>
+      </select>
+      </div>
+      <!-- END Question 6 -->
+
+      <!-- Submit Buttons -->
+      <div class="pb-3">
+        <button class="btn btn-primary" type="submit" value="Input">Submit Quiz</button>
+        <button class="btn btn-secondary" type="reset" value="Reset">Reset Page</button>
+      </div>
+      <!-- END Submit Buttons -->
+
+
+      </form>
+    </div> <!-- Column -->
+
+  </div> <!-- Row -->
+
+</div> <!-- Container -->
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
